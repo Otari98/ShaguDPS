@@ -71,8 +71,8 @@ local view_templates = {
     bar_lower_max = "best",
     bar_lower_val = "value",
     chat_string = "[+%s] %s (%.1f%%)",
-    bar_string = "|cffcc8888+%s|r %s (%.1f%%)",
-    bar_string_params = { "uneffective_value", "effective_value", "effective_percent" },
+    bar_string = "%s (%.1f%%)",
+    bar_string_params = { "effective_value", "effective_percent" },
   },
   [4] = { -- hps
     name = "HPS",
@@ -82,8 +82,8 @@ local view_templates = {
     bar_lower_max = "persecond_best",
     bar_lower_val = "value_persecond",
     chat_string = "[+%s] %s (%.1f%%)",
-    bar_string = "|cffcc8888+%s|r %s (%.1f%%)",
-    bar_string_params = { "uneffective_value_persecond", "effective_value_persecond", "effective_percent" },
+    bar_string = "%s (%.1f%%)",
+    bar_string_params = { "effective_value_persecond", "effective_percent" },
   },
 }
 
